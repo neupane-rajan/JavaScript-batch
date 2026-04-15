@@ -47,3 +47,5 @@ console.log("before using splice:", myArray);
 const newArr2 = myArray.splice(1, 3); // splice(start, deleteCount) it modifies the original array and returns the deleted elements.splice returns an array containing the deleted elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned.
 console.log(newArr2);
 console.log("after using splic:", myArray);
+
+// main difference between slice and splice is that slice does not modify the original array while splice modifies the original array.
