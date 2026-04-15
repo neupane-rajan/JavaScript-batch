@@ -20,8 +20,9 @@ const programming_language = ["python", "JavaScript", "java", "c programming"];
 const nestedArr = [
   [1, 2, 3],
   [4, 5, 6],
-  [7, 8, 9],
+  [7, [8, 9]],
   [10, 11, 12],
 ];
-// flat
-const newArr = nestedArr.flat(Infinity)
+// flat remove the nested array and return new single array. It takes an optional argument that specifies the depth level to flatten the array. If no argument is provided, it defaults to 1, meaning it will only flatten one level of nesting.
+const newArr = nestedArr.flat(Infinity);  // infinity is used to flatten the array to any depth level.
+console.log(newArr);
