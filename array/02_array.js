@@ -24,5 +24,17 @@ const nestedArr = [
   [10, 11, 12],
 ];
 // flat remove the nested array and return new single array. It takes an optional argument that specifies the depth level to flatten the array. If no argument is provided, it defaults to 1, meaning it will only flatten one level of nesting.
-const newArr = nestedArr.flat(Infinity);  // infinity is used to flatten the array to any depth level.
-console.log(newArr);
+const newArr = nestedArr.flat(Infinity); // infinity is used to flatten the array to any depth level.
+// console.log(newArr);
+
+// we use this many time while data scrapping
+
+// console.log(Array.isArray(Array.isArray("Rajan")));
+
+// console.log(Array.from("Rajan"));
+// console.log(Array.from({ name: "Rajan" })); // it will return empty array
+
+let score1 = 100;
+let score2 = 122;
+let score3 = 123;
+console.log(Array.of(score1, score2, score3)); // return new array from sets of new elements
