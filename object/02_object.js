@@ -5,3 +5,4 @@ niijoUser.name = "Random";
 niijoUser.isLoggedIn = false;
 
 console.log(niijoUser);
+// ...
